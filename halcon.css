@@ -1,12 +1,23 @@
 #contenedor{
-    width:1000px ;
+
     display: flex;
-    flex-wrap: wrap;
+
+}
+.pieza{
+    width: 300px;
+    border: 3px solid green;
+    border-radius: 2px;
+    float: left;
+    background: black;
+
+
+
 }
 img{
 
-    width: 500px;
+    width: 100%;
 }
-body{
-    margin: 0px;
+
+section{
+    width: 50%;
 }
