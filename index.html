@@ -7,32 +7,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>YO,EL HALCON</title>
     <link rel="stylesheet" href="halcon.css">
+    <script TYPE="text/javascript" SRC="halcon.js"> </script>
 </head>
-<body>
+<body onload="cambiarImagen()">
 <div id="contenedor">
-    <section class="drop">
-        <div class="pieza" draggable="true">
+    <section id="drop">
+        <div id="pega1" class="pega">
         </div>
-        <div class="pieza" draggable="true">
+        <div id="pega2" class="pega" >
         </div>
-        <div class="pieza" draggable="true">
+        <div id="pega3" class="pega">
         </div>
-        <div class="pieza" draggable="true">
+        <div id="pega4" class="pega">
         </div>
 
     </section>
-    <section class="drag">
-        <div class="pieza">
-    <img src="./img/imagen1.jpg" alt="halcon1" draggable="true">
+    <section id="drag">
+        <div  class="pieza">
+    <img id="coger" class="imagen" src="./img/imagen1.jpg" alt="halcon1" draggable="true">
         </div>
         <div class="pieza">
-    <img src="./img/imagen2.jpg" alt="halcon2" draggable="true">
+    <img id="coger1" class="imagen"   src="./img/imagen2.jpg" alt="halcon2" draggable="true">
         </div>
         <div class="pieza">
-    <img src="./img/imagen3.jpg" alt="halcon3" draggable="true">
+    <img id="coger2"  class="imagen" src="./img/imagen3.jpg" alt="halcon3" draggable="true">
         </div>
             <div class="pieza">
-    <img src="./img/imagen4.jpg" alt="halcon4" draggable="true">
+    <img id="coger3" class="imagen"  src="./img/imagen4.jpg" alt="halcon4" draggable="true">
             </div>
     </section>
 </div>
