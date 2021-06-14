@@ -16,16 +16,26 @@ img{
     width: 100%;
 }
 
-p{
-    width: 3%;
-    height: inherit;
-    color: blue;
+p {
+    color: white;
 }
 header{
     background-image: url("./img/grulla.jpg");
     height: 80px;
     background-size:contain;
+    border: 3px solid green;
 }
 h1{
     color: green;
 }
+#instruccion{
+    background-color:grey;
+    align-content: center;
+    width: 10%;
+    height: 280px;
+    border: 3px solid green;
+    top: 200px;
+    position: relative;
+    right: 90px;
+}
+
