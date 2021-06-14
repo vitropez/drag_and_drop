@@ -24,26 +24,20 @@ function dropItem(target, event) {
 
 
 function copyPega() {
-
-
-
-
     var contOrigen = document.querySelectorAll("#drag")[0];
-    console.log(contOrigen)
     var items = document.querySelectorAll(".imagen");
-    console.log(items)
+
     for (var i = 0; i < items.length; i++) {
         items[i].setAttribute("onDragStart", "dragItem(this,event)");
-
     }
-    for (var i = 0; i < items.length; i++) {
-        var contDestino = document.querySelectorAll("#drop")[0];
-        var items = document.querySelectorAll(".pega");
-        console.log(contDestino)
 
-        items[i].setAttribute("onDrop", "dropItem(this,event)");
-        items[i].setAttribute("onDragEnter", "return false");
-        items[i].setAttribute("onDragOver", "return false");
+    for (var j = 0; j < items.length; j++) {
+        var contDestino = document.querySelectorAll("#drop")[0];
+        var files = document.querySelectorAll(".pega");
+
+        files[j].setAttribute("onDrop", "dropItem(this,event)");
+        files[j].setAttribute("onDragEnter", "return false");
+        files[j].setAttribute("onDragOver", "return false");
     }
 }
 window.addEventListener('load',copyPega,true);

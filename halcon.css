@@ -1,31 +1,31 @@
 #contenedor{
-
+background-image: url("./img/bosque.jpg");
     display: flex;
+    background-size: 100%;
+    height: 680px;
 
 }
-.pieza {
+.pieza ,.pega{
     width: 300px;
     border: 3px solid green;
     border-radius: 2px;
     float: left;
-    background: black;
     height: 310px;
-}
-
-.pega{
-    width: 300px;
-    border: 3px solid green;
-    border-radius: 2px;
-    float: left;
-
-    height: 310px;
-
 }
 img{
-
     width: 100%;
 }
 
-section{
-    width: 50%;
+p{
+    width: 3%;
+    height: inherit;
+    color: blue;
+}
+header{
+    background-image: url("./img/grulla.jpg");
+    height: 80px;
+    background-size:contain;
+}
+h1{
+    color: green;
 }
